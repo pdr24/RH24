@@ -9,26 +9,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#A8BC92"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome to Rowdy Games!"
+            android:padding="20sp"
+            android:text="Welcome to Rowdy Pet!"
             android:textAlignment="center"
             android:textSize="28sp" />
 
-        <Button
-            android:id="@+id/runner"
+        <TextView
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dino Runner" />
+            android:gravity="center"
+            android:padding="20sp"
+            android:text="Click on the plants to feed your pet. Don't let it's health hit 0!"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/pet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dino Pet" />
+            android:gravity="center"
+            android:padding="20sp"
+            android:text="Start" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

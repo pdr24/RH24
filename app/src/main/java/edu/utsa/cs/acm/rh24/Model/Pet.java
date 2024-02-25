@@ -7,7 +7,7 @@ public class Pet {
     private int energy;
 
     public Pet (){
-        this.health = 10;
+        this.health = 100;
         this.energy = 10;
         this.thrist = 10;
         this.hunger = 10;

@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button pet = findViewById(R.id.pet);
         pet.setOnClickListener(this);
-        Button runner = findViewById(R.id.runner);
-        runner.setOnClickListener(this);
+        //Button runner = findViewById(R.id.runner);
+        //runner.setOnClickListener(this);
     }
 
     @Override
@@ -28,15 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         int idOfButtonPressed = view.getId();
         if (idOfButtonPressed == R.id.pet) {
-            intent = new Intent(this, PetActivity.class);
+            intent = new Intent(this, FeedActivity.class);
             this.startActivity(intent);
-        }
-        else if (idOfButtonPressed == R.id.runner) {
-            intent = new Intent(this, RunnerActivity.class);
-            this.startActivity( intent );
-        }
-        else {
-            System.out.println("\n\nId of button not pet nor runner\n");
         }
 
 
