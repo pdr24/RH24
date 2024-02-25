@@ -18,16 +18,16 @@
             android:textSize="28sp" />
 
         <TextView
-            android:id="@+id/hunger"
+            android:id="@+id/health"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hunger: 10"
+            android:text="Health: 10"
             android:textSize="28sp" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/dinosaurView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="300sp"
             app:srcCompat="@drawable/dinocrop" />
 
     </LinearLayout>

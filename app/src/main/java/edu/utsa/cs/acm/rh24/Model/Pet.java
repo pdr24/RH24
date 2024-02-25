@@ -9,7 +9,7 @@ public class Pet {
     public Pet (){
         this.health = 10;
         this.energy = 10;
-        this.thrist = 0;
+        this.thrist = 10;
         this.hunger = 10;
     }
 
